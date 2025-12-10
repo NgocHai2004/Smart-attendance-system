@@ -2,6 +2,10 @@ import mysql.connector
 from mysql.connector import Error
 import os
 from typing import Optional
+from dotenv import load_dotenv
+
+# Load biến môi trường từ file .env
+load_dotenv()
 
 class DatabaseConnection:
     """Quản lý kết nối MySQL database"""

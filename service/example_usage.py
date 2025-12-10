@@ -2,7 +2,7 @@
 Ví dụ sử dụng các repository để trích xuất dữ liệu từ database
 """
 
-from server import (
+from service import (
     db,
     StudentsRepository,
     TeachersRepository,

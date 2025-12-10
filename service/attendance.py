@@ -1,4 +1,4 @@
-from server.db_connection import db
+from service.db_connection import db
 from typing import List, Dict, Optional
 from datetime import datetime, date
 
